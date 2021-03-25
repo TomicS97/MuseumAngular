@@ -1,0 +1,30 @@
+.center {
+    margin-left: 230px;
+    margin-right: auto;
+    width: 40%;
+}
+
+.line {
+    border-left: 1px solid #5f5c60;
+    height: 700px;
+}
+
+.mt-40{
+    margin-top: 40px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.ml-12{
+    margin-left: 12px;
+}
+
+.ml-80{
+    margin-left: 80%;
+}

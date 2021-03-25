@@ -1,0 +1,16 @@
+<form>
+    <div class="form-group mt-20">
+        <hr/>
+        <input type="text" (keyup)="searchTree($event)"/>
+        <ul class="mt-20">
+            <li><a>{{service.tree.name}}</a></li>
+            <ul *ngFor="let item of service.tree.collection">
+                <li><a>{{item.name}}</a></li>
+                <ul *ngFor="let item2 of item.collection">
+                    <li (click)="loadCollectionTree(item2.id)"><a>{{item2.name}}</a></li>
+                </ul>
+            </ul>
+        </ul>
+    
+    </div>
+</form>

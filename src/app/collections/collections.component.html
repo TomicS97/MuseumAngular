@@ -1,0 +1,14 @@
+<form>
+    <div class="form-group line mt-20">
+        <div class="ml-30">
+            <img class="images center" src={{service.collection.url}} />
+            
+            <div class="mt-40">
+                <button (click)="loadCollectionEdit(service.collection.id)" type="button" 
+                class="btn btn-primary ml-80">Edit</button>
+                <h3>{{service.collection.name}}</h3>
+            </div>
+            <p>{{service.collection.description}}</p>
+        </div>
+    </div>
+</form>
